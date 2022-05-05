@@ -1,3 +1,3 @@
 string name
 string type
-int8   zone
+int16  zone

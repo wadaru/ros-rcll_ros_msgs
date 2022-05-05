@@ -1,4 +1,4 @@
 string name
 string type
-int8   zone
-uint32  rotation
+int16  zone
+uint32 rotation
