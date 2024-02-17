@@ -46,10 +46,12 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 FILE(GLOB MSG_FILES RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/msg/" "${CMAKE_CURRENT_SOURCE_DIR}/msg/*.msg")
 add_message_files(FILES ${MSG_FILES})
+# add_message_files(FILES AgentTask.msg)
 
 ## Generate services in the 'srv' folder
 FILE(GLOB SRV_FILES RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/srv/" "${CMAKE_CURRENT_SOURCE_DIR}/srv/*.srv")
 add_service_files(FILES ${SRV_FILES})
+# add_service_files(FILES SendAgentTask.srv)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
