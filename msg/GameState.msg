@@ -44,3 +44,9 @@ string team_cyan
 uint32 points_magenta
 # Name of the currently playing team
 string team_magenta
+
+
+uint32 field_height
+uint32 field_width
+bool field_mirrored
+
